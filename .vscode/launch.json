@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "gdb",
+            "request": "launch",
+            "cwd": "${workspaceRoot}",
+            "name": "PlatformIO Debugger",
+            "target": "/home/milie/Documents/PlatformIO/Projects/HeaterControl_one_file/.pioenvs/d1_mini/firmware.elf",
+            "gdbpath": "/home/milie/.platformio/penv/bin/piodebuggdb",
+            "autorun": [ "source .pioinit" ]
+        }
+    ]
+}
